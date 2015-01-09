@@ -7,7 +7,7 @@ GitHub Info:
 
 Tree: https://github.com/kallimg7/dws1/tree/gh-pages
 
-Live Site: http://kallimg7.github.com/index.html
+Live Site: http://kallimg7.github.io/dws1/project1/
 
 
 
