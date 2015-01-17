@@ -1,78 +1,86 @@
+/* layout for divs */
 .monkeys {
 	margin-left: auto;
     margin-right: auto;
     width: 85%;
-    background-color:##e7a61a  ;
-    color: #000000
+    background-color:#c6dec3 ;
+    color: #000000;
     height:100%;
     font-size: 1em;
     line-height:1.4;
     display: block;
     border-radius: 27px 27px 27px 27px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px;
     padding-right: 10px;
 	padding-left: 10px;
     
 }
 
+/*main page */
+
 body {
-	background:#
+	background-color:#e61c1c;
 	opacity: 0.8;
-	color: #551700
+	/*color: #551700;*/
 	margin: 25px;
 	}
-	
+
+/* content - heading 1*/
 h1 {
-	background:#ffc1aa;
+	/*background:#ffc1aa;*/
 	font-family: myFont;
 	font-size: 40px;
-	font-style: bold;
+	font-style: normal;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
+	border-radius: 27px 27px 27px 27px;
 }
 
+/* content - heading 2*/
+
 h2 {
-	background:#ffc1aa;
+	/*background:#ffc1aa;*/
 	font-family: "Lucida Console";
 	font-size: 30px;
-	font-style: bold;
+	font-style: normal;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
+	border-radius: 27px 27px 27px 27px;
 }
+/* content - back to main menu*/
 h3 {
-	background:#ffc1aa;
+	/*background:#ffc1aa;*/
 	font-family: "Lucida Console";
 	font-size: 20px;
-	font-style: bold;
+	font-style: normal;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
 	}
-	
+/* content - paragraph layout */	
 p {
 	font-family: "Courier New";
 	font-size: 14px;
 	font-style: normal;
 	}
+	
+/* navigation - mouse actions */
 
 /* Active link */
 a:link {
-    color: #ffc1aa;
+    color: #e61c1c;
     text-decoration: none;
-    text-shadow:#ffc1aa
 }
 
 /* visited link */
 a:visited {
-    color: #ffc1aa;
+    color: #e61c1c;
     text-decoration: none;
-    text-shadow:#ffc1aa
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF00FF;
+    color: #1c44e6;
     text-decoration: none;
-    text-shadow:#ffc1aa
     
 }
 
@@ -83,17 +91,20 @@ a:active {
     
 }
 
+/* content - navigation menu*/
+
 ul li {
 	list-style-type: none;
 	margin:0;
 	padding: 0;
 	overflow:hidden;
 	float: left;
-	border-style:
+	border-style: solid;
 	}
-	
+
+/* navigation - change vertical ul list into horizontal */	
 ul a {
-	display:block;
+	display:inline-block;
 	text-decoration: none;
 	padding-right: 32px;
 	padding-left: 32px;
@@ -103,14 +114,15 @@ ul a {
 	}
 
 
-
+/* content - set image property*/
 img {
     border: 1px solid #0000ff;
-    height: 100;
-    width: 80;
+    height: 100px;
+    width: 80px;
     display:inline-block;
 }
 
+/* content - load external font using @font-face */
 
 @font-face {
 	font-family:MyFont;
