@@ -1,0 +1,122 @@
+.monkeys {
+	margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color:##e7a61a  ;
+    color: #000000
+    height:100%;
+    font-size: 1em;
+    line-height:1.4;
+    display: block;
+    border-radius: 27px 27px 27px 27px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding-right: 10px;
+	padding-left: 10px;
+    
+}
+
+body {
+	background:#
+	opacity: 0.8;
+	color: #551700
+	margin: 25px;
+	}
+	
+h1 {
+	background:#ffc1aa;
+	font-family: myFont;
+	font-size: 40px;
+	font-style: bold;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+h2 {
+	background:#ffc1aa;
+	font-family: "Lucida Console";
+	font-size: 30px;
+	font-style: bold;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+h3 {
+	background:#ffc1aa;
+	font-family: "Lucida Console";
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+	}
+	
+p {
+	font-family: "Courier New";
+	font-size: 14px;
+	font-style: normal;
+	}
+
+/* Active link */
+a:link {
+    color: #ffc1aa;
+    text-decoration: none;
+    text-shadow:#ffc1aa
+}
+
+/* visited link */
+a:visited {
+    color: #ffc1aa;
+    text-decoration: none;
+    text-shadow:#ffc1aa
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+    text-decoration: none;
+    text-shadow:#ffc1aa
+    
+}
+
+/* selected link */
+a:active {
+    color:#ffc1aa;
+    text-decoration: none;
+    
+}
+
+ul li {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+	float: left;
+	border-style:
+	}
+	
+ul a {
+	display:block;
+	text-decoration: none;
+	padding-right: 32px;
+	padding-left: 32px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #371C1C;
+	
+	}
+
+
+
+img {
+    border: 1px solid #0000ff;
+    height: 100;
+    width: 80;
+    display:inline-block;
+}
+
+
+@font-face {
+	font-family:MyFont;
+	src: url(http://www.google.com/fonts#UsePlace:use/Collection:Roboto+Slab:400,700);
+	}
+	
+
+
+
