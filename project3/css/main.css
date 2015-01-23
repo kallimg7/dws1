@@ -1,0 +1,166 @@
+
+/* layout for main menu*/
+#header {
+ 		 width:100%;
+ 		 text-align: left;
+		 padding: 10px 0;
+	     margin-bottom: 1%;
+ 		 
+ 	 }
+
+/* layout for footer*/
+ 	 
+ #footer{
+		clear: left;
+		width: 100%;
+		background-image: url("images/monkey1.gif");
+		color: #000000;
+		text-align:left;
+		padding: 1px 0;
+
+ 	 }
+/* layout for main content */
+
+#content {
+    margin:1%;
+	padding:1%;
+    width: 70%;
+    color: #000000;
+    font-size: 1em;
+    line-height:1.4;
+    float: left;
+    box-shadow: 1px 1px 1px 1px;
+    
+   }
+
+/* layout for gallery */ 
+#gallery {
+    margin:1%;
+	padding:1%;
+	width:20%;
+    color: #000000;
+    height:100%;
+    font-size: 1em;
+    box-shadow: 1px 1px 1px 1px;
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+	}
+	
+
+/*main page */
+
+
+body {
+	margin:1%;
+	padding:1%;
+	line-height: 1.5em;
+	background: rgb(228,245,252); /*gradient*/
+	background-image: url("images/monk1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	
+	}
+
+/* content - heading 1*/
+h1 {
+	font-family: Courier, monospace;
+	font-size: 2.5em;
+	font-style: normal;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+	border-radius: 27px 27px 27px 27px;
+}
+
+/* content - heading 2*/
+
+h2 {
+
+	font-family: "Lucida Console";
+	font-size: 2.45em;
+	font-style: normal;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+	border-radius: 27px 27px 27px 27px;
+	
+}
+/* content - back to main menu*/
+h3 {
+	font-family: "Lucida Console";
+	font-size: 1.6em;
+	font-style: normal;
+	text-align: left;
+	text-shadow: 2px 2px #ff0000;
+	}
+/* content - paragraph layout */	
+p {
+	font-family: "Courier New";
+	font-size: 1.2em;
+	font-style: normal;
+	background-image: url("images/monk.png");
+	background-repeat: no-repeat;
+	}
+	
+/* navigation - mouse actions */
+
+/* Active link */
+a:link {
+    color: #e61c1c;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #e61c1c;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1c44e6;
+    text-decoration: none;
+    
+}
+
+/* selected link */
+a:active {
+    color:#ffc1aa;
+    text-decoration: none;
+    
+}
+
+/* content - navigation menu*/
+
+ul li {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+	float: left;
+	border-style: solid;
+	}
+
+/* navigation - change vertical ul list into horizontal */	
+ul a {
+	display:block;
+	text-decoration: none;
+	padding-right: 32px;
+	padding-left: 32px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #371C1C;
+	
+	}
+
+
+/* content - set image property*/
+img {
+    border: 1px solid #0000ff;
+    height: 100px;
+    width: 80px;
+    display:block;
+}
+
+
+
+
+
+
